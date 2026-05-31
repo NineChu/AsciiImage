@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASCII Image</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="https://github.com/NineChu">NineChu</a></li>
+        <li id="navIndex"><a href="https://github.com/NineChu/AsciiImage">AsciiImage</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="section-text">
+        <p>Paste an image anywhere in this site to transform it in grayscale and ASCII.</p>
+      </section>
+      <section class="section-interactive">
+        <input id="inputAsciiWidth" type="number" value="100" placeholder="ASCII image's width">
+      </section>
+      <section id="sectionContent">
+        <section id="sectionResult">
+          <img id="imgOriginal" src="" alt="original" />
+          <img id="imgGrayscaled" src="" alt="grayscaled" />
+          <img id="imgGrayscaledResized" src="" alt="grayscaledResized" />
+          <pre id="preAscii"></pre>
+        </section>
+      </section>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+</html>
